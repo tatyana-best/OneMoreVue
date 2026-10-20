@@ -84,13 +84,13 @@ export default {
         <button @mouseover="show">{{ text }}</button>
         <button @click="square(2)">2^2</button>
         <button @click="square(3)">3^2</button>
-        <div>Массив: 
+        <div>Массив (пример): 
             {{ arr[0] }}
             {{ arr[1] }}
             {{ arr[2] }}
         </div>
         <div>Сумма элементов массива равна: {{ arr[0] + arr[1] + arr[2] }}</div>
-        <div>Объект:
+        <div>Объект (пример):
             {{ obj.a }}
             {{ obj.b }}
             {{ obj.c }}
